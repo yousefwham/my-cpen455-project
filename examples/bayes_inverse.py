@@ -12,6 +12,7 @@ Usage:
 """
 
 import os
+os.environ["WANDB_MODE"] = "disabled"
 import pdb
 import wandb
 from dotenv import load_dotenv
